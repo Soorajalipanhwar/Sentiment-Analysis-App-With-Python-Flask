@@ -14,7 +14,8 @@ from the `requirements.txt` file first, and then run the app using VS Code termi
 python app.py
 ```
 
-Then the vscdoe will give you the local hosting address here the html page is being hostel, copy it and paste it on the url input of your internet browser
-The looks like the following screenshot:
+Then the vscdoe will give you the local hosting address here the html page is being hostel, copy it and paste it on the url input of your internet browser.
+
+The page will looks like the following screenshot:
 ![page]( https://github.com/Soorajalipanhwar/Sentiment-Analysis-App-With-Python-Flask/blob/main/page%20view.jpg?raw=true "Optional title")
 
