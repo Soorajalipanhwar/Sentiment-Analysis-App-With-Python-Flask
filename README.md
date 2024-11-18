@@ -16,4 +16,5 @@ python app.py
 
 Then the vscdoe will give you the local hosting address here the html page is being hostel, copy it and paste it on the url input of your internet browser
 The looks like the following screenshot:
-![Alt text](page view.jpg "Optional title")
+![page](page view.jpg "Optional title")
+
