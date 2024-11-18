@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis App</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis App</h1>
+        <form method="POST" id="sentiment-form">
+            <textarea id="message" name="message" rows="4" placeholder="Type your text here..." required></textarea>
+            <button type="submit">Analyze Sentiment</button>
+        </form>
+        <div id="sentiment-result">
+            {% if sentiment %}
+                <p class="{{ sentiment_class }}">Sentiment: <strong>{{ sentiment }}</strong></p>
+            {% endif %}
+        </div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
